@@ -1,0 +1,102 @@
+.btn{
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color: orange;
+    color: whitesmoke;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+ .btn:hover{
+ background: #333;
+}
+
+.footer{
+    background:#333;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    
+}
+
+.footer .box-container{
+    display: flex;
+
+}
+
+.footer .box-container .box{
+    margin:20px;
+    flex : 1;
+    
+}
+
+.footer .box-container .box h3{
+    font-size: 32px;
+    color:#fff;
+}
+
+.footer .box-container .box p{
+    font-size: 25px;
+    color:#eee;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    font-size: 25px;
+    color:#eee;
+    padding: 8px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.footer .box-container .box a:hover{
+
+    text-decoration: underline;
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container form{
+    display: flex;
+    align-items: center;
+}
+
+.footer .box-container form input[type="email"]{
+    height: 45px;
+    width:100%;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+
+.footer .box-container form .btn{
+    margin-top: 0;
+}
+
+.footer .box-container form .btn:hover{
+    color:#333;
+    background:#ccc;
+}
+
+.footer .credit{
+    font-size: 25px;
+    background:#222;
+    text-align: center;
+    color:#fff;
+    padding:20px 10px;
+    font-weight: normal;
+    /* text-decoration: none; */
+}
+
+h1.credit {
+    margin: 0px;
+}
+
+.footer .credit a{
+    color:orange;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,71 @@
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact form{
+    flex:1 1 40rem;
+    padding:2rem;
+    margin:1rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+}
+
+.contact .content{
+    flex:1 1 40rem;
+    padding:30px 10px;
+}
+
+.contact form .box{
+    width:100%;
+    color:#333;
+    height:40px;
+    font-size: 25px;
+    /* border-bottom: .2rem solid r5pxgba(0,0,0,.3); */
+    text-transform: none;
+    margin:1rem 0;
+}
+
+.contact form .message{
+    height:15rem;
+    resize: none;
+}
+
+.contact .content h3{
+    font-size: 50px;
+    color:#444;
+}
+
+.contact .content p{
+    font-size: 25px;
+    color:#666;
+    padding:1rem 0;
+}
+
+.contact .content .icons{
+    font-size: 22px;
+    color:#333;
+    padding:.7rem 0;
+}
+
+.contact .content .icons i{
+    padding-right: 10px;
+    color:orange
+}
+
+.btn{
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color: orange;
+    color: whitesmoke;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+ .btn:hover{
+ background: #333;
+}

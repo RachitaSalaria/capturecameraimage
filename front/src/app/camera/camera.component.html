@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+  <div class="webcam">
+
+   <!-- webcam image shown  -->
+   <form  method="post" enctype="multipart/form-data">
+   <webcam  [trigger]="$trigger" (imageCapture)="snapshot($event)"  name="image"></webcam>
+   </form>
+
+   <!-- <webcam  [trigger]="$trigger" (change)="onFileSelect($event)" name='image'></webcam> -->
+   <br>
+    <button  class="btn" (click)="captureImage()">{{btnLabel}}</button>
+  </div>
+
+  <!-- preview section -->
+  <div *ngIf="previewImage"> 
+    <img [src]="previewImage" height="300" width="300">
+    <!-- <button (click)="proceed()">proceed</button> -->
+  </div>
+<button   *ngIf="previewImage" class="btn"   (click)="onSubmit()">save</button>
+
+
+  <app-footer></app-footer>
